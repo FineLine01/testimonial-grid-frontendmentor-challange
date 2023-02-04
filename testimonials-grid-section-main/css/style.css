@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -19,18 +20,19 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     overflow: none;
     width: var(--Desktop);
+    background-color: rgb(76, 42, 42);
 }
 
 .t-container {
     background-color: var(--Lightgrayishblue);
-    width: 100%;
-    height: 100%;
 }
 
 /* Daniel C*/
 
 .daniel-c {
-    transform: translate(200px, 150px);
+    position: absolute;
+    top: 200px;
+    left: 100px;
     border-radius: 10px;
     width: 650px;
     height: 300px;
@@ -86,7 +88,9 @@ body {
 /* Jonathan W */
 
 .jonathan-w {
-  transform: translate(200px, 150px);
+    position: absolute;
+    top: 200px;
+    left: 750px;
   border-radius: 10px;
   width: 280px;
   height: 330px;
@@ -134,7 +138,9 @@ body {
 /* Jeanette Harmon */
 
 .jeanette-h {
-    transform: translate(200px, 150px);
+    position: absolute;
+    top: 500px;
+    left: 100px;
   border-radius: 10px;
   width: 280px;
   height: 330px;
@@ -150,6 +156,7 @@ body {
     top: 30px;
     left: 30px;
 }
+
 .jeanette-h > h3 {
     position: relative;
     top: -15px;
@@ -172,6 +179,114 @@ body {
 }
 .jeanette-h > p {
     width: 210px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    opacity: 0.7;
+}
+
+/* Patrick A */
+
+.patrick-a {
+    position: absolute;
+    top: 500px;
+    left: 380px;
+    border-radius: 10px;
+    width: 650px;
+    height: 300px;
+    background-color: var(--Verydarkblackishblue);
+    color: var(--White);
+    font-size: 13px;
+}
+
+.patrick-a img {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.patrick-a > h3 {
+    line-height: 20px;
+    position: relative;
+    top: 20px;
+    left: 90px;
+}
+
+.patrick-a > h4 {
+    line-height: 20px;
+    position: relative;
+    top: 20px;
+    left: 90px;
+    opacity: 0.5;
+}
+
+.patrick-a > h2 {
+    line-height: 25px;
+    letter-spacing: 2px;
+    width: 600px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+
+
+.patrick-a > p {
+    line-height: 17px;
+    letter-spacing: 1px;
+    width: 600px;
+    position: relative;
+    top: 65px;
+    left: 30px;
+    opacity: 0.7;
+}
+
+/* Kira W */
+
+.kira-w {
+    position: absolute;
+    top: 200px;
+    left: 1030px;
+  border-radius: 10px;
+  width: 280px;
+  height: 600px;
+  background-color: var(--White);
+  color: var(--Verydarkblackishblue);
+  font-size: 13px;
+}
+
+.kira-w img {
+    border-radius: 50px;
+    border: 2px solid white;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.kira-w > h3 {
+    position: relative;
+    top: -15px;
+    left: 80px;
+}
+
+.kira-w > h4 {
+    position: relative;
+    top: -10px;
+    left: 80px;
+    opacity: 0.5;
+}
+
+.kira-w > h2 {
+    width: 200px;
+    position: relative;
+    top: 15px;
+    left: 30px;
+    letter-spacing: 1px;
+}
+.kira-w > p {
+    width: 210px;
+    line-height: 20px;
     position: relative;
     top: 50px;
     left: 30px;
