@@ -39,20 +39,26 @@ body {
     font-size: 13px;
 }
 
+#daniel-img {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+.daniel-c > h3 {
+    line-height: 20px;
+    position: relative;
+    top: 20px;
+    left: 90px;
+}
+
 .daniel-c > h4 {
     line-height: 20px;
     position: relative;
     top: 20px;
     left: 90px;
     opacity: 0.5;
-}
-
-
-.daniel-c > h3 {
-    line-height: 20px;
-    position: relative;
-    top: 20px;
-    left: 90px;
 }
 
 .daniel-c > h2 {
@@ -76,20 +82,13 @@ body {
 }
 
 
-#daniel-img {
-    position: absolute;
-    top: 20px;
-    left: 35px;
-    border-radius: 50px;
-    border: 2px solid white;
-}
 
 /* Jonathan W */
 
 .jonathan-w {
   transform: translate(200px, 150px);
   border-radius: 10px;
-  width: 250px;
+  width: 280px;
   height: 330px;
   background-color: var(--Verydarkgrayishblue);
   color: var(--White);
@@ -102,14 +101,6 @@ body {
     position: relative;
     top: 30px;
     left: 30px;
-}
-
-.jonathan-w > h2 {
-    width: 200px;
-    position: relative;
-    top: 15px;
-    left: 30px;
-    letter-spacing: 1px;
 }
 
 .jonathan-w > h3 {
@@ -125,10 +116,64 @@ body {
     opacity: 0.5;
 }
 
-.jonathan-w > p {
-    width: 150px;
+.jonathan-w > h2 {
+    width: 200px;
     position: relative;
-    top: 40px;
+    top: 15px;
+    left: 30px;
+    letter-spacing: 1px;
+}
+.jonathan-w > p {
+    width: 210px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    opacity: 0.7;
+}
+
+/* Jeanette Harmon */
+
+.jeanette-h {
+    transform: translate(200px, 150px);
+  border-radius: 10px;
+  width: 280px;
+  height: 330px;
+  background-color: var(--White);
+  color: var(--Verydarkblackishblue);
+  font-size: 13px;
+}
+
+.jeanette-h img {
+    border-radius: 50px;
+    border: 2px solid white;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.jeanette-h > h3 {
+    position: relative;
+    top: -15px;
+    left: 80px;
+}
+
+.jeanette-h > h4 {
+    position: relative;
+    top: -10px;
+    left: 80px;
+    opacity: 0.5;
+}
+
+.jeanette-h > h2 {
+    width: 200px;
+    position: relative;
+    top: 15px;
+    left: 30px;
+    letter-spacing: 1px;
+}
+.jeanette-h > p {
+    width: 210px;
+    position: relative;
+    top: 50px;
     left: 30px;
     opacity: 0.7;
 }
